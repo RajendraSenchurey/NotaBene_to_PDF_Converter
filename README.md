@@ -23,5 +23,5 @@ The script will search the specified folder and its subfolders for `.nb` files a
 
 ## Author
 Rajendra Senchurey  
-University of Arizona
+University of Arizona  
 Research Assistant to Professor Emeritus J. Ronald Engel, PhD
