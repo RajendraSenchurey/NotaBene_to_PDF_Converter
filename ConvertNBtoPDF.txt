@@ -1,7 +1,4 @@
-NB to PDF conversion - Script for Windows PowerShell
-
-
-#Step 1: Since windows blocks custom scripts by default, run this one first to allow execution:
+#Step 1: Since Windows blocks custom scripts by default, run this one first to allow execution:
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
@@ -9,7 +6,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 #Step 2: Set your main parent folder here. It will search this folder and all subfolders inside it and converts all .nb files. Copy everything below this:
 
-$folderPath = "C:\Users\Rajendra\Desktop\Test_Engel"
+$folderPath = "C:\Users\Rajendra\Desktop\Test_Engel Manuscripts"
 
 #Get all .nb files in the folder and all nested subfolders (-Recurse)
 $nbFiles = Get-ChildItem -Path $folderPath -Filter "*.nb" -Recurse
